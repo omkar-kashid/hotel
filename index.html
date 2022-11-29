@@ -9,16 +9,23 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/334a63da1e.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -34,23 +41,23 @@
         <a class="navbar-brand" href="">Hotel Vinayshree</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#aboutus">About Us</a>
+              <a class="nav-link nav-bar" href="#features">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallary">Gallary</a>
+              <a class="nav-link nav-bar" href="#carouselExampleCaptions">Gallary</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link nav-bar" href="#pricing">Services</a>
             </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link nav-bar" href="#footer">Contact</a>
             </li>
           </ul>
 
@@ -64,8 +71,17 @@
 
         <div class="col-lg-6">
           <h1 class="big-heading">Stay in our world of comfort and style</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><a class="nav-link nav-item" href="#pricing"><i class="fa-solid fa-burger"></i> Foods</a></button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><a class="nav-link nav-item" href="#pricing"><i class="fa-solid fa-hotel"></i> Rooms</a></button>
+          <div class="row">
+
+            <a class="nav-link nav-item" href="#pricing"><button type="button"
+                class="btn btn-dark btn-lg download-button"><i class="fa-solid fa-burger"></i> Foods</button></a>
+
+
+            <a class="nav-link nav-item" href="#pricing"><button type="button"
+                class="btn btn-outline-light btn-lg download-button"><i class="fa-solid fa-hotel"></i>
+                Rooms</button></a>
+
+          </div>
         </div>
 
         <div class="col-lg-6">
@@ -112,7 +128,7 @@
 
   <!-- Testimonials -->
 
-   <!-- <section class="colored-section" id="testimonials">
+  <!-- <section class="colored-section" id="testimonials">
 
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
@@ -136,7 +152,7 @@
     </div>
 
   </section>  -->
-  
+
   <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -201,7 +217,8 @@
             <p>NON-AC ROOMS</p>
             <p> .</p>
             <p>DELUX ROOMS</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button"><a class="botton-book" href="book.html"></a>Boook Now</button>
+            <a class="botton-book" href="rooms.html"><button class="btn btn-lg btn-block btn-outline-dark"
+                type="button">Boook Now</button></a>
           </div>
         </div>
       </div>
@@ -214,11 +231,12 @@
           <div class="card-body">
             <h2 class="price-text">Foods</h2>
             <p>VEG FOOD</p>
-              <p>BREAKFAST</p>
-              <p>SOUTH INDIAN DISHES</p>
-              <p>CHINESE FOOD</p>
-              <p>DRINKS</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button"><a class="botton-book" href="mailto:omkarkashid2525@gmail.com">Request for Online Service</a></button>
+            <p>BREAKFAST</p>
+            <p>SOUTH INDIAN DISHES</p>
+            <p>CHINESE FOOD</p>
+            <p>DRINKS</p>
+            <a class="botton-book" href="mailto:omkarkashid2525@gmail.com"><button class="btn btn-lg btn-block btn-dark"
+                type="button">Request for Online Service</button></a>
           </div>
         </div>
       </div>
@@ -250,23 +268,41 @@
 
   <footer id="footer">
     <div class="container-fluid contact">
-      <div class="row">
-      <div class="col-lg-6 col-md-12">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299275.28255811793!2d74.28817286804387!3d17.037145501194484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc16932086acf7b%3A0x424b5bee9c812c53!2sHotel%20Vijayshree!5e0!3m2!1sen!2sin!4v1663814515335!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
-      <div class="col-lg-6 col-md-12 pfooter">
-         <p>.</p>
-         <p>.</p>
-         <p >Address:Hotel Vijayshree, Vita, Maharashtra 41531</p>
-         <p >EMAIL: contact@hotelayodhya.com </p>
-         <p >WEBSITE: hotelvinayshree.com</p>
-         <p >PHONE: 91-231- 2651781 / 2652293 / 2652294 / 2652295</p> 
-        
+      <div class="row colored-section">
+        <div class="col-lg-12">
+          <h2><b>Contact Us</b></h2>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>.</p>
+          <p>.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299275.28255811793!2d74.28817286804387!3d17.037145501194484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc16932086acf7b%3A0x424b5bee9c812c53!2sHotel%20Vijayshree!5e0!3m2!1sen!2sin!4v1663814515335!5m2!1sen!2sin"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-6 col-md-12 pfooter">
+          <p>.</p>
+          <p>Address:Hotel Vijayshree, Vita, Maharashtra 41531</p>
+          <p>EMAIL: contact@hotelvinayshree.com </p>
+          <p>WEBSITE: hotelvinayshree.com</p>
+          <p>PHONE: 91-231- 2651781 / 2652293 / 2652294 / 2652295</p>
+          <p>.</p>
+
+          <a class="botton-book" href="feedback.html"><button class="btn btn-lg btn-block btn-dark" type="button">Give
+              Feedback</button></a>
+
+        </div>
       </div>
     </div>
-      <div class="container-fluid">
+    <div class="container-fluid">
       <p>© Copyright 2022 Hotel Vinayshree</p>
-      </div>
+    </div>
   </footer>
 
 
